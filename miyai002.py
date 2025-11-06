@@ -51,8 +51,8 @@ def main():
         print("受信:", data)
         log_data(data)
         send_response(ser, data)   # ← ここでJSON応答を送る
-
-
+    
+    print("Hello GitHub")
 
 if __name__ == "__main__":
     main()
